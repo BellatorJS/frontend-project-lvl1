@@ -4,11 +4,11 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-	name: npm install
+     - name: npm install
         # Install project
         run: |
           make install
-        name: Run linter
+     - name: Run linter
         # Run Linter
         run: |
           make lint
