@@ -14,13 +14,13 @@
 2. **Install dependencies.**
 
    ```bash
-   make install
+   $ make install
    ```
    
  3. **Print the game's name in terminal and press "Enter" to launch it.**
 
    ```bash
-   brain-even
+   $ brain-even
    ```  
 
 
@@ -33,4 +33,10 @@
 2. brain-calc
 * 📜 The aim of the game is as follows: the user is shown a random mathematical expression, for example 35 + 16, which must be calculated and the correct answer obtained.
 [![asciicast](https://asciinema.org/a/IEdLgR9BF33CCveyyqiyUxcaG.svg)](https://asciinema.org/a/IEdLgR9BF33CCveyyqiyUxcaG)
+
+3. brain-gcd
+* 📜 The aim of the game is as follows: the user is shown two random numbers, for example, 25 50. The user must calculate and enter the greatest common divisor of these numbers.
+[![asciicast](https://asciinema.org/a/AhvJqhKx1xTJKMIiPpMr38ECp.svg)](https://asciinema.org/a/AhvJqhKx1xTJKMIiPpMr38ECp)
+
+
 
