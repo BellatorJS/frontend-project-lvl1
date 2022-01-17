@@ -11,21 +11,26 @@
    $ git clone https://github.com/BellatorJS/frontend-project-lvl1.git
    ```
 
-2. **Install dependencies**
+2. **Install dependencies.**
 
    ```bash
    make install
    ```
    
- 3. **Print the game's name in terminal and press "Enter" to launch it**
+ 3. **Print the game's name in terminal and press "Enter" to launch it.**
 
    ```bash
    brain-even
    ```  
 
 
-### List of the brain-games
+### List of the brain-games.
 
-1. Brain-even
+1. brain-even
 * 📜 The game is generate a random number. You needs to answer "yes" if the number is even, or "no" if it is odd:
 [![asciicast](https://asciinema.org/a/O7zqggslpbrLibx7mrjSeWYgc.svg)](https://asciinema.org/a/O7zqggslpbrLibx7mrjSeWYgc)
+
+2. brain-calc
+* 📜 The aim of the game is as follows: the user is shown a random mathematical expression, for example 35 + 16, which must be calculated and the correct answer obtained.
+[![asciicast](https://asciinema.org/a/IEdLgR9BF33CCveyyqiyUxcaG.svg)](https://asciinema.org/a/IEdLgR9BF33CCveyyqiyUxcaG)
+
