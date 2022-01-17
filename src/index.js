@@ -15,7 +15,7 @@ const launchGame = (rullesOfTheGame, generatedQuestion) => {
       console.log('Correct!');
     } else { return console.log(`${userResponce} is wrong answer ;(. Correct answer was ${trueResponce}.\nLet's try again, '${userName}!`); }
   }
-  return console.log(`Congratulations, ${userName} `);
+  return console.log(`Congratulations, ${userName}!`);
 };
 
 export default launchGame;
