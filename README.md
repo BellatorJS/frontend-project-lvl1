@@ -3,6 +3,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![Testing_CI](https://github.com/BellatorJS/frontend-project-lvl1/actions/workflows/testProgect.yml/badge.svg)](https://github.com/BellatorJS/frontend-project-lvl1/actions/workflows/testProgect.yml)
 
+**This project includes set of five games. Each game has 3 questions. To win, you need to answer all three questions in a row. If you answer incorrectly, the game ends. Good luck!**
+
 ## 🚀 Quick Start
 
 1. **Clone a repository.**
