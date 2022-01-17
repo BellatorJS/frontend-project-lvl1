@@ -11,7 +11,8 @@ const launchGame = (rullesOfTheGame, generatedQuestion) => {
     console.log(questionToUser);
     const userResponce = readlineSync.question('Your answer: ');
 
-    if (userResponce === trueResponce.toString()) {
+    // eslint-disable-next-line eqeqeq
+    if (userResponce == trueResponce) {
       console.log('Correct!');
     } else {
       console.log(`${userResponce} is wrong answer ;(. Correct answer was ${trueResponce}.`);
