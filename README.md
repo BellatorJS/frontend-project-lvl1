@@ -38,5 +38,10 @@
 * 📜 The aim of the game is as follows: the user is shown two random numbers, for example, 25 50. The user must calculate and enter the greatest common divisor of these numbers.
 [![asciicast](https://asciinema.org/a/AhvJqhKx1xTJKMIiPpMr38ECp.svg)](https://asciinema.org/a/AhvJqhKx1xTJKMIiPpMr38ECp)
 
+4. brain-progression
+* 📜 We show the player a series of numbers that form an arithmetic progression, replacing any of the numbers with two dots. The player must determine this number.
+[![asciicast](https://asciinema.org/a/XD4VHobM3yfO2c2whah5wXkUQ.svg)](https://asciinema.org/a/XD4VHobM3yfO2c2whah5wXkUQ)
+
+
 
 
