@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "description": "[![Actions Status](https://github.com/BellatorJS/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/BellatorJS/frontend-project-lvl1/actions)",
   "main": "index.js",
