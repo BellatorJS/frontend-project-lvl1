@@ -8,7 +8,6 @@ const checkNumber = (number) => {
   return result;
 };
 const rullesOfTheGame = 'Answer "yes" if the number is even, otherwise answer "no".';
-
 const brainEven = () => {
   const generatedQuestion = () => {
     const randomNum = getRandomInt();

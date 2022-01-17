@@ -71,5 +71,6 @@
    ```
 
 * 📜 The game is generate a random number. You needs to answer "yes" if the number is prime, or "no" if it is composite.
+
 [![asciicast](https://asciinema.org/a/L0GBrBVD1SNM8mF14ixipUGU1.svg)](https://asciinema.org/a/L0GBrBVD1SNM8mF14ixipUGU1)
 
