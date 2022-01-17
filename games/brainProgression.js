@@ -10,13 +10,14 @@ const brainProgression = () => {
     const commonDifference = getRandomInt(1, 9);
     const startProgression = getRandomInt();
 
-    const questionFormed = [startProgression];
+    const progression = [startProgression];
     for (let i = 0; i <= progressionLength; i += 1) {
-      questionFormed.push((questionFormed[i] + commonDifference));
+      progression.push((progression[i] + commonDifference));
     }
-    const trueResponce = getRandomIndex(questionFormed);
-    const trueResponceIndex = questionFormed.indexOf(trueResponce);
-    questionFormed[trueResponceIndex] = '..';
+    const trueResponce = getRandomIndex(progression);
+    const trueResponceIndex = progression.indexOf(trueResponce);
+    progression[trueResponceIndex] = '..';
+    const questionFormed = progression.join(' ');
     return [questionFormed, trueResponce];
   };
   return launchGame(rullesOfTheGame, generatedQuestion);
