@@ -11,7 +11,7 @@ const brainCalc = () => {
     const operand1 = getRandomInt();
     const operand2 = getRandomInt();
     const symbol = getRandomIndex(symbolOperation);
-    const questionFormed = `${operand1}${symbol}${operand2}`;
+    const questionFormed = `${operand1} ${symbol} ${operand2}`;
     let result = 0;
     switch (symbol) {
       case '+':
