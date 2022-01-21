@@ -1,6 +1,6 @@
 import { getRandomInt, getRandomIndex } from './util.js';
 
-import launchGame from '../src/index.js';
+import launchGame from '../index.js';
 
 const rullesOfTheGame = 'What is the result of the expression?';
 

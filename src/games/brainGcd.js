@@ -1,6 +1,6 @@
 import { getRandomInt } from './util.js';
 
-import launchGame from '../src/index.js';
+import launchGame from '../index.js';
 
 const rullesOfTheGame = 'Find the greatest common divisor of given numbers.';
 

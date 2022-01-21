@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-import { greeting } from '../games/util.js';
+import { greeting } from './games/util.js';
 
 const launchGame = (rullesOfTheGame, generatedQuestion) => {
   const userName = greeting();

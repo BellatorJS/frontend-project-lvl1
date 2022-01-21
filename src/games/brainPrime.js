@@ -1,4 +1,4 @@
-import launchGame from '../src/index.js';
+import launchGame from '../index.js';
 
 import { getRandomInt } from './util.js';
 
