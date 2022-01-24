@@ -1,15 +1,15 @@
-import { getRandomInt } from '../util.js';
+import getRandomInt from '../util.js';
 
 import launchGame from '../index.js';
 
 const desctiption = 'Find the greatest common divisor of given numbers.';
 
-const gcd = (n, m) => {
-  if (m !== 0) {
-    const k = n % m;
-    return gcd(m, k);
+const gcd = (a, b) => {
+  if (b !== 0) {
+    const c = a % b;
+    return gcd(b, c);
   }
-  return n;
+  return a;
 };
 
 const generateRound = () => {

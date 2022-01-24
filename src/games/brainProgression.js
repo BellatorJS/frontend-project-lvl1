@@ -1,6 +1,6 @@
 import launchGame from '../index.js';
 
-import { getRandomInt } from '../util.js';
+import getRandomInt from '../util.js';
 
 const desctiption = 'What number is missing in the progression?';
 
