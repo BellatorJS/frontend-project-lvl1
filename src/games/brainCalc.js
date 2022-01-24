@@ -1,4 +1,4 @@
-import { getRandomInt, getRandomIndex } from '../util.js';
+import { getRandomInt } from '../util.js';
 
 import launchGame from '../index.js';
 
@@ -18,9 +18,6 @@ const calculation = (operand1, operand2, operator) => {
     case '*':
       result = operand1 * operand2;
       break;
-    case '/':
-      result = operand1 / operand2;
-      break;
     default:
       throw new SyntaxError('Wrong input');
   }
@@ -30,10 +27,10 @@ const calculation = (operand1, operand2, operator) => {
 const generateRound = () => {
   const operand1 = getRandomInt();
   const operand2 = getRandomInt();
-  const operator = getRandomIndex(operators);
+  const operator = operators[getRandomInt(0, operators.length - 1)];
   const question = `${operand1} ${operator} ${operand2}`;
-  const result = calculation(operand1, operand2, operator);
-  return [question, result];
+  const answer = calculation(operand1, operand2, operator);
+  return [question, answer];
 };
 
 const brainCalc = () => launchGame(desctiption, generateRound);

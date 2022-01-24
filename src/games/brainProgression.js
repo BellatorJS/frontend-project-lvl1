@@ -1,6 +1,6 @@
 import launchGame from '../index.js';
 
-import { getRandomInt, getRandomIndex } from '../util.js';
+import { getRandomInt } from '../util.js';
 
 const desctiption = 'What number is missing in the progression?';
 
@@ -16,11 +16,11 @@ const getProgression = () => {
 };
 const generateRound = () => {
   const progression = getProgression();
-  const result = getRandomIndex(progression);
-  const index = progression.indexOf(result);
+  const answer = progression[getRandomInt(0, progression.length - 1)];
+  const index = progression.indexOf(answer);
   progression[index] = '..';
   const question = progression.join(' ');
-  return [question, result];
+  return [question, answer];
 };
 
 const brainProgression = () => launchGame(desctiption, generateRound);
